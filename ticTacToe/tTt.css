@@ -1,0 +1,124 @@
+* {
+	margin:0;
+	padding: 0;
+}
+body {
+	background-image: url('https://i.ytimg.com/vi/1QeTbsVMkVw/maxresdefault.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+table {
+  border-collapse: collapse;
+	font-size: 6rem;
+	border-radius: 1rem;
+}
+table td, table th {
+  border: 6px solid rgba(255,255,255,0.5);
+}
+table tr:first-child th {
+  border-top: 0;
+}
+table tr:last-child td {
+  border-bottom: 0;
+}
+table tr td:first-child,
+table tr th:first-child {
+  border-left: 0;
+}
+table tr td:last-child,
+table tr th:last-child {
+  border-right: 0;
+}
+
+.container{
+	display:flex;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+}
+
+table {
+	margin-top: 2rem;
+	width: 30vw;
+	height:30vw;
+	text-align: center;
+	border-color: #03A9F4;
+	color: #651FFF;
+	background-color: rgba(255,255,255,0.2);
+	font-family: 'Stalinist One';
+}
+.nob {
+	border-top: 0;
+}
+h1 {
+	text-align: center;
+	margin-top: 3rem;
+	color: rgba(255,0,70,0.6);
+	font-size: 9rem;
+	font-family: 'Iceland';
+}
+#intro {
+	position: fixed;
+	width: 35vw;
+	height: 30vh;
+	color:#1A237E;
+	font-family: 'Iceland';
+	font-size: 3rem;
+	margin-top: 10rem;
+	margin-left:33%;
+	text-align: center;
+	background-color: rgba(20,200,150,0.9);
+	border-radius: 0.5rem;
+}
+#cross, #circle {
+	display:inline-block;
+	font-family: 'Monofett';
+	margin: 3rem;
+	margin-top: -1rem;
+	font-size: 9rem;
+}
+#cross:hover, #circle:hover {
+	cursor: pointer;
+	color: #FF5722;
+}
+td {
+	width:5vw;
+	height:5vw;
+}
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine {
+	visibility:hidden;
+}
+#result {
+	position: absolute;
+	margin-top: 10rem;
+	margin-left: 33%;
+	background-color: rgba(55,160,195,0.8);
+	width:35vw;
+	border-radius: 0.3rem;
+	height:35vh;
+	text-align: center;
+	font-family: 'Iceland';
+	visibility:hidden;
+}
+#msg {
+	margin-top: 3rem;
+	font-size: 5rem;
+	color:rgba(20,20,255,0.8);
+}
+#reset {
+	margin-top: 2rem;
+	border: none;
+	color: rgba(40,230,250,0.7);
+	font-family: 'Iceland';
+	font-size: 3rem;
+	background-color: rgba(20,20,230,0.8);
+	border-radius: 2rem;
+	padding:0.5rem;
+}
+#reset:hover {
+	cursor:pointer;
+	background-color: rgba(40,230,40,0.6);
+	color: rgba(230,0,150,0.7);
+}
