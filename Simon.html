@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simon</title>
+<link href="https://fonts.googleapis.com/css?family=Monoton|Press+Start+2P" rel="stylesheet">
+  <link rel="stylesheet" href="../css/simon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src='simon.js'></script>
+  </head>
+  <body>
+    <div id="console">
+      <h1 id="tit">Simon</h1>
+      <div class="row controls">
+        <div id="count"><p id="num"></p></div>
+        <i class="fa fa-undo fa-3x" id="restart" aria-hidden="true"></i>
+          <i class="fa fa-play fa-3x" aria-hidden="true" id="start"></i>
+          <i class="fa fa-exclamation-triangle fa-3x" id='strict' aria-hidden="true"></i>
+      </div>
+      <div id="toggle">
+      <i class="fa fa-toggle-off fa-4x" aria-hidden="true" id='off'></i>
+    </div>
+    </div>
+    <div class='main'>
+      <div class="row">
+        <div id="green">
+        </div>
+        <div id="red">
+        </div>
+      </div>
+      <div class="row">
+        <div id="yellow">
+        </div>
+        <div id="blue">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
